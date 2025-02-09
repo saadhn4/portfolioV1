@@ -1,0 +1,176 @@
+ @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+ }
+
+ html,
+ body {
+   height: 100%;
+   width: 100%;
+ }
+
+ .wrapper {
+   width: 1200px;
+   margin: 0px auto;
+ }
+
+
+
+ .navbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 13vh;
+   padding: 20px;
+ }
+
+ .navbar,
+ .logo {
+   font-size: 23px;
+ }
+
+ .navbar .nav-links {
+   list-style: none;
+   display: flex;
+   gap: 40px;
+   font-size: 18px;
+
+ }
+
+ .navbar .nav-links li a {
+   color: #000;
+   text-decoration: none;
+   font-weight: bold;
+ }
+
+ .navbar .nav-links li:hover {
+   text-decoration: underline #000;
+ }
+
+ .content {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   height: 73vh;
+ }
+
+ .left {
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 30px;
+
+ }
+
+ .left h1 {
+   margin-bottom: 20px;
+ }
+
+ .left p {
+   text-align: center;
+   font-size: 18px;
+   font-weight: 500;
+   margin-bottom: 30px;
+ }
+
+ .links-row a {
+   text-decoration: none;
+   color: #000;
+   margin-right: 15px;
+   font-size: 18px;
+   border: 1px solid #000;
+   padding: 5px 13px;
+   border-radius: 6px;
+   transition: color, background-color 0.3s;
+ }
+
+ .links-row a:hover {
+   color: #fff;
+   background-color: #000;
+ }
+
+
+ .links-row a span {
+   margin-left: 5px;
+   font-weight: 500;
+ }
+
+
+ /* .left button {
+   width: 30%;
+   margin-top: 20px;
+   border-radius: 8px;
+   border: none;
+   background-color: #1877F2;
+   padding: 8px 10px;
+   color: #fff;
+   font-weight: bold;
+   cursor: pointer;
+   transition: all 0.15s;
+
+ }
+
+ .left button:hover {
+   background-color: #fff;
+   color: #1877F2;
+ } */
+
+ .right {
+   display: flex;
+   justify-content: center;
+   align-items: center
+ }
+
+ .right img {
+   height: 450px
+ }
+
+ /* Skills section */
+
+ .skills-section {
+   padding: 0 50px;
+   margin-bottom: 100px;
+ }
+
+ .skills-section h1 {
+   text-align: center;
+   font-size: 35px;
+   margin-bottom: 10px;
+ }
+
+ .skills-section .skills-text {
+   text-align: center;
+   margin-bottom: 20px;
+   font-weight: 500;
+ }
+
+ .skills-section .cells {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+
+ }
+
+ .skills-section .cells .cell {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 200px;
+   padding: 10px 20px;
+   border: 1.5px solid #d3d3d3;
+   border-radius: 5px;
+   margin: 10px;
+   gap: 10px;
+ }
+
+ .skills-section .cells .cell img {
+   width: 30px;
+   height: 30px;
+   object-fit: contain;
+   border-radius: 2px;
+ }
