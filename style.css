@@ -133,8 +133,9 @@
  /* Skills section */
 
  .skills-section {
-   padding: 0 50px;
-   margin-bottom: 100px;
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-bottom: 20px;
  }
 
  .skills-section h1 {
