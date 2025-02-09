@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const target = document.querySelector(this.getAttribute("href"));
       if (target) {
         window.scrollTo({
-          top: target.offsetTop - 50, // Adjust for navbar height if necessary
+          top: target.offsetTop - 50,
           behavior: "smooth",
         });
       }
