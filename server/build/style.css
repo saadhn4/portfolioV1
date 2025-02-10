@@ -165,7 +165,6 @@ body {
 
   .content {
     grid-template-columns: 1fr;
-    /* Stack sections */
     height: auto;
     padding: 20px 0;
   }
