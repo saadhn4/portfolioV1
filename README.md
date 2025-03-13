@@ -5,7 +5,7 @@ This is a portfolio website built using HTML, CSS, and JavaScript with Express.j
 ## Features
 - Responsive design for all screen sizes.
 - Navigation bar with smooth scrolling.
-- Portfolio section showcasing Saad's skills.
+- Portfolio section showcasing my skills.
 - Links to GitHub and LinkedIn profiles.
 - Express.js backend serving static files.
 
