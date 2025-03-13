@@ -11,4 +11,4 @@ This is a portfolio website built using HTML, CSS, and JavaScript with Express.j
 
 ## Technologies Used
 - **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Node.js, Express.js
+- **Backend:** Node.js, Express.js (for deploying)
